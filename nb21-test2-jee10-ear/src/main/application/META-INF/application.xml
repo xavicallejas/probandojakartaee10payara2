@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application version="7" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/application_10.xsd">
+  <display-name>nb21-test2-jee10-ear-1.0</display-name>
+  <module>
+    <web>
+      <web-uri>nb21-test2-jee10-web-1.0.war</web-uri>
+      <context-root>/nb21-test2-jee10-web</context-root>
+    </web>
+  </module>
+  <module>
+    <ejb>nb21-test2-jee10-ejb-1.0.jar</ejb>
+  </module>
+</application>
